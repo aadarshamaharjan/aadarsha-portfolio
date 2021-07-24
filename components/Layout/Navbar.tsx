@@ -36,7 +36,7 @@ export default function Navbar() {
     <>
       <nav
         className={
-          "flex justify-between h-20 items-center px-8 fixed top-0 w-screen z-30 bg-primary"
+          "flex justify-between h-20 items-center px-8 fixed top-0 w-screen z-30 bg-primary box-border"
         }
         id="top"
       >
@@ -74,7 +74,6 @@ export default function Navbar() {
           </a>
         </div>
       </nav>
-
       <Contact />
     </>
   );

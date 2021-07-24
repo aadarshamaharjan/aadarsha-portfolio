@@ -54,7 +54,7 @@ export default function Introduction() {
       </div>
       <div className={`w-full flex items-center justify-center`}>
         <div className="relative flex items-center justify-center h-full w-96">
-          <div className="md:block absolute md:right-0 md:top-48 hidden">
+          {/* <div className="md:block md:absolute md:right-0 md:top-48 lg:top-64 hidden">
             <svg
               width="120"
               height="60"
@@ -68,7 +68,7 @@ export default function Introduction() {
               />
             </svg>
           </div>
-          <div className="md:block absolute md:left-0 md:top-52 z-10 hidden">
+          <div className="md:block md:absolute md:left-0 md:top-52 lg:top-72 z-10 hidden">
             <svg
               width="88"
               height="75"
@@ -79,7 +79,7 @@ export default function Introduction() {
               <path d="M44 0L87.3013 75H0.69873L44 0Z" fill="#B4656F" />
             </svg>
           </div>
-          <div className="md:block absolute md:right-0 md:bottom-44 z-10 hidden">
+          <div className="md:block md:absolute md:right-0 md:bottom-36 lg:bottom-64 z-10 hidden">
             <svg
               width="103"
               height="103"
@@ -94,7 +94,7 @@ export default function Introduction() {
               />
             </svg>
           </div>
-          <div className="md:block absolute md:left-4 md:bottom-48 z-10 hidden">
+          <div className="md:block md:absolute md:left-4 md:bottom-48 lg:bottom-72 z-10 hidden">
             <svg
               width="56"
               height="56"
@@ -104,7 +104,7 @@ export default function Introduction() {
             >
               <circle cx="28" cy="28" r="28" fill="#C2BBF0" />
             </svg>
-          </div>
+          </div> */}
           <Image
             src={profilePic}
             alt="Picture of the author"
