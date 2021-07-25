@@ -34,7 +34,7 @@ export default function Introduction() {
   }, []);
   return (
     <div
-      className={`flex flex-col-reverse md:flex-row h-screen w-screen md:px-32 px-8 md:pt-20 pt-44 justify-around`}
+      className={`flex flex-col-reverse md:flex-row h-full min-h-screen w-screen md:px-32 px-8 md:pt-20 pt-44 justify-around`}
       id="introductionSection"
     >
       <div className={`flex flex-col items-start justify-center`}>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div id="footerSection">
+    <div className="flex">
       <div>Facebook</div>
       <div>Instagram</div>
     </div>

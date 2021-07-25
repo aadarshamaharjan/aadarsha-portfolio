@@ -16,7 +16,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #00adb5;
-  border-radius: 100px;
+  border-radius: 999px;
 }
 
 /* Handle on hover */
@@ -55,6 +55,11 @@
 .blink-text {
   color: var(--color-secondary);
 }
+#tsparticles {
+  height: 100% !important;
+  min-height: 100%;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

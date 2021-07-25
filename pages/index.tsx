@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
+import AboutMe from "../components/AboutMe";
 import Introduction from "../components/Introduction";
 
 export default function Home() {
   return (
     <>
       <Introduction />
+      <AboutMe />
     </>
   );
 }

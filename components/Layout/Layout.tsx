@@ -5,16 +5,16 @@ import Header from "./Header";
 const Layout = ({ children }: any) => {
   return (
     <>
-      <main className="bg-primary text-fontColor font-sans text-base flex-col w-screen box-border">
-        <div className="absolute z-0 h-screen w-screen">
+      <main className="bg-primary text-fontColor font-sans text-base flex-col w-full box-border relative h-full overflow-x-hidden">
+        <div className="absolute top-0 left-0 w-full h-full">
           <Particles
             params={{
               particles: {
                 number: {
-                  value: 120,
+                  value: 30,
                   density: {
                     enable: true,
-                    value_area: 1000,
+                    value_area: 350,
                   },
                 },
                 line_linked: {
@@ -54,7 +54,7 @@ const Layout = ({ children }: any) => {
           />
         </div>
         <Header />
-        <div className="">{children}</div>
+        {children}
         <Footer />
       </main>
     </>

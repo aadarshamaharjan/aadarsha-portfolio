@@ -36,11 +36,11 @@ export default function Navbar() {
     <>
       <nav
         className={
-          "flex justify-between h-20 items-center px-8 fixed top-0 w-screen z-30 bg-primary box-border"
+          "flex justify-between h-20 items-center px-8 fixed top-0 left-0 w-full z-30 bg-primary"
         }
         id="top"
       >
-        <div className={"font-logo"}>
+        <div className={""}>
           <Link href="/">
             <a data-page="home">
               <Image
@@ -74,6 +74,7 @@ export default function Navbar() {
           </a>
         </div>
       </nav>
+
       <Contact />
     </>
   );
