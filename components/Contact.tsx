@@ -9,36 +9,11 @@ function Contact() {
         }
       >
         <div className="left stagger py-32 px-40 h-screen translate-x-36 opacity-0">
-          <h2>It&apos;s so easy</h2>
-          <p className="subhead">You&apos;ve got two options!</p>
-
-          <div className="cards">
-            <div className="card">
-              <strong>Subscribe for $9 per month</strong>
-              <p>
-                This is the most popular option across our members. Join now,
-                and cancel at any time!
-              </p>
-              <a href="#" className="cta">
-                Subscribe Now
-              </a>
-            </div>
-
-            <div className="card">
-              <strong>Pay $99 Once</strong>
-              <p>
-                This is the most popular option across our members. Join now,
-                and cancel at any time!
-              </p>
-              <a href="#" className="cta pay-once">
-                Pay once
-              </a>
-            </div>
-          </div>
+          
         </div>
         <div className="middle stagger h-screen translate-x-36 opacity-0 pt-40">
           <ul className="secondary">
-            <li>
+<!--             <li>
               <a href="#">Home</a>
             </li>
             <li>
@@ -49,7 +24,7 @@ function Contact() {
             </li>
             <li>
               <a href="#">Contact</a>
-            </li>
+            </li> -->
           </ul>
 
           <div className="social-nav">
